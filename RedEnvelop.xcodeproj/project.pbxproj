@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E365FE25202FDCF3002AFF3F /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E365FE24202FDCF3002AFF3F /* MethodTraceConfig.plist */; };
+		E365FE28202FDCF3002AFF3F /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = E365FE27202FDCF3002AFF3F /* put ipa or app here */; };
+		E365FE30202FDCF3002AFF3F /* libRedEnvelopDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E365FE2F202FDCF3002AFF3F /* libRedEnvelopDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E365FE35202FDCF3002AFF3F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E365FE34202FDCF3002AFF3F /* JavaScriptCore.framework */; };
+		E365FE37202FDCF3002AFF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E365FE36202FDCF3002AFF3F /* Foundation.framework */; };
+		E365FE39202FDCF3002AFF3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E365FE38202FDCF3002AFF3F /* UIKit.framework */; };
+		E365FE3D202FDCF3002AFF3F /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE3C202FDCF3002AFF3F /* ANYMethodLog.h */; };
+		E365FE3F202FDCF3002AFF3F /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE3E202FDCF3002AFF3F /* ANYMethodLog.m */; };
+		E365FE41202FDCF3002AFF3F /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE40202FDCF3002AFF3F /* MethodTrace.h */; };
+		E365FE43202FDCF3002AFF3F /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE42202FDCF3002AFF3F /* MethodTrace.m */; };
+		E365FE48202FDCF3002AFF3F /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE47202FDCF3002AFF3F /* AntiAntiDebug.m */; };
+		E365FE4B202FDCF3002AFF3F /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = E365FE4A202FDCF3002AFF3F /* fishhook.c */; };
+		E365FE4D202FDCF3002AFF3F /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE4C202FDCF3002AFF3F /* fishhook.h */; };
+		E365FE50202FDCF3002AFF3F /* RedEnvelopDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = E365FE4F202FDCF3002AFF3F /* RedEnvelopDylib.mm */; };
+		E365FE6F202FDD11002AFF3F /* WBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE5E202FDD10002AFF3F /* WBBaseViewController.h */; };
+		E365FE70202FDD11002AFF3F /* WBRedEnvelopConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE5F202FDD10002AFF3F /* WBRedEnvelopConfig.h */; };
+		E365FE71202FDD11002AFF3F /* WeChatRedEnvelopParam.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE60202FDD10002AFF3F /* WeChatRedEnvelopParam.h */; };
+		E365FE72202FDD11002AFF3F /* WeChatRedEnvelop.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE61202FDD10002AFF3F /* WeChatRedEnvelop.h */; };
+		E365FE73202FDD11002AFF3F /* WBMultiSelectGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE62202FDD10002AFF3F /* WBMultiSelectGroupsViewController.m */; };
+		E365FE74202FDD11002AFF3F /* WBRedEnvelopConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE63202FDD10002AFF3F /* WBRedEnvelopConfig.m */; };
+		E365FE75202FDD11002AFF3F /* WBRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE64202FDD10002AFF3F /* WBRedEnvelopParamQueue.m */; };
+		E365FE76202FDD11002AFF3F /* WBSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE65202FDD10002AFF3F /* WBSettingViewController.h */; };
+		E365FE77202FDD11002AFF3F /* WeChatRedEnvelopParam.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE66202FDD10002AFF3F /* WeChatRedEnvelopParam.m */; };
+		E365FE78202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE67202FDD10002AFF3F /* WBReceiveRedEnvelopOperation.h */; };
+		E365FE79202FDD11002AFF3F /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE68202FDD10002AFF3F /* WBBaseViewController.m */; };
+		E365FE7A202FDD11002AFF3F /* WBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE69202FDD10002AFF3F /* WBSettingViewController.m */; };
+		E365FE7B202FDD11002AFF3F /* WBRedEnvelopParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE6A202FDD10002AFF3F /* WBRedEnvelopParamQueue.h */; };
+		E365FE7C202FDD11002AFF3F /* WBRedEnvelopTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE6B202FDD11002AFF3F /* WBRedEnvelopTaskManager.h */; };
+		E365FE7D202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE6C202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.m */; };
+		E365FE7E202FDD11002AFF3F /* WBMultiSelectGroupsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E365FE6D202FDD11002AFF3F /* WBMultiSelectGroupsViewController.h */; };
+		E365FE7F202FDD11002AFF3F /* WBRedEnvelopTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E365FE6E202FDD11002AFF3F /* WBRedEnvelopTaskManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E365FE31202FDCF3002AFF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E365FE16202FDCF3002AFF3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E365FE2E202FDCF3002AFF3F;
+			remoteInfo = RedEnvelopDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E365FE1E202FDCF3002AFF3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E365FE30202FDCF3002AFF3F /* libRedEnvelopDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E365FE21202FDCF3002AFF3F /* RedEnvelop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedEnvelop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E365FE24202FDCF3002AFF3F /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MethodTraceConfig.plist; sourceTree = "<group>"; };
+		E365FE27202FDCF3002AFF3F /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		E365FE29202FDCF3002AFF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E365FE2F202FDCF3002AFF3F /* libRedEnvelopDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libRedEnvelopDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E365FE34202FDCF3002AFF3F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E365FE36202FDCF3002AFF3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E365FE38202FDCF3002AFF3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E365FE3C202FDCF3002AFF3F /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		E365FE3E202FDCF3002AFF3F /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		E365FE40202FDCF3002AFF3F /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		E365FE42202FDCF3002AFF3F /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		E365FE45202FDCF3002AFF3F /* RedEnvelopDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedEnvelopDylib-Prefix.pch"; sourceTree = "<group>"; };
+		E365FE47202FDCF3002AFF3F /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		E365FE4A202FDCF3002AFF3F /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		E365FE4C202FDCF3002AFF3F /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		E365FE4E202FDCF3002AFF3F /* RedEnvelopDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RedEnvelopDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E365FE4F202FDCF3002AFF3F /* RedEnvelopDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RedEnvelopDylib.mm; sourceTree = "<group>"; };
+		E365FE5E202FDD10002AFF3F /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
+		E365FE5F202FDD10002AFF3F /* WBRedEnvelopConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopConfig.h; sourceTree = "<group>"; };
+		E365FE60202FDD10002AFF3F /* WeChatRedEnvelopParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopParam.h; sourceTree = "<group>"; };
+		E365FE61202FDD10002AFF3F /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
+		E365FE62202FDD10002AFF3F /* WBMultiSelectGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMultiSelectGroupsViewController.m; sourceTree = "<group>"; };
+		E365FE63202FDD10002AFF3F /* WBRedEnvelopConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopConfig.m; sourceTree = "<group>"; };
+		E365FE64202FDD10002AFF3F /* WBRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopParamQueue.m; sourceTree = "<group>"; };
+		E365FE65202FDD10002AFF3F /* WBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSettingViewController.h; sourceTree = "<group>"; };
+		E365FE66202FDD10002AFF3F /* WeChatRedEnvelopParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopParam.m; sourceTree = "<group>"; };
+		E365FE67202FDD10002AFF3F /* WBReceiveRedEnvelopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBReceiveRedEnvelopOperation.h; sourceTree = "<group>"; };
+		E365FE68202FDD10002AFF3F /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
+		E365FE69202FDD10002AFF3F /* WBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSettingViewController.m; sourceTree = "<group>"; };
+		E365FE6A202FDD10002AFF3F /* WBRedEnvelopParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopParamQueue.h; sourceTree = "<group>"; };
+		E365FE6B202FDD11002AFF3F /* WBRedEnvelopTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopTaskManager.h; sourceTree = "<group>"; };
+		E365FE6C202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBReceiveRedEnvelopOperation.m; sourceTree = "<group>"; };
+		E365FE6D202FDD11002AFF3F /* WBMultiSelectGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMultiSelectGroupsViewController.h; sourceTree = "<group>"; };
+		E365FE6E202FDD11002AFF3F /* WBRedEnvelopTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopTaskManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E365FE1B202FDCF3002AFF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E365FE2C202FDCF3002AFF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E365FE35202FDCF3002AFF3F /* JavaScriptCore.framework in Frameworks */,
+				E365FE39202FDCF3002AFF3F /* UIKit.framework in Frameworks */,
+				E365FE37202FDCF3002AFF3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E365FE15202FDCF3002AFF3F = {
+			isa = PBXGroup;
+			children = (
+				E365FE23202FDCF3002AFF3F /* RedEnvelop */,
+				E365FE3A202FDCF3002AFF3F /* RedEnvelopDylib */,
+				E365FE33202FDCF3002AFF3F /* Frameworks */,
+				E365FE22202FDCF3002AFF3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E365FE22202FDCF3002AFF3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE21202FDCF3002AFF3F /* RedEnvelop.app */,
+				E365FE2F202FDCF3002AFF3F /* libRedEnvelopDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E365FE23202FDCF3002AFF3F /* RedEnvelop */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE24202FDCF3002AFF3F /* MethodTraceConfig.plist */,
+				E365FE29202FDCF3002AFF3F /* Info.plist */,
+				E365FE26202FDCF3002AFF3F /* TargetApp */,
+			);
+			path = RedEnvelop;
+			sourceTree = "<group>";
+		};
+		E365FE26202FDCF3002AFF3F /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE27202FDCF3002AFF3F /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		E365FE33202FDCF3002AFF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE34202FDCF3002AFF3F /* JavaScriptCore.framework */,
+				E365FE36202FDCF3002AFF3F /* Foundation.framework */,
+				E365FE38202FDCF3002AFF3F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E365FE3A202FDCF3002AFF3F /* RedEnvelopDylib */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE5D202FDD06002AFF3F /* Class */,
+				E365FE4E202FDCF3002AFF3F /* RedEnvelopDylib.xm */,
+				E365FE4F202FDCF3002AFF3F /* RedEnvelopDylib.mm */,
+				E365FE3B202FDCF3002AFF3F /* MethodTrace */,
+				E365FE46202FDCF3002AFF3F /* AntiAntiDebug */,
+				E365FE49202FDCF3002AFF3F /* fishhook */,
+				E365FE44202FDCF3002AFF3F /* Supporting Files */,
+			);
+			path = RedEnvelopDylib;
+			sourceTree = "<group>";
+		};
+		E365FE3B202FDCF3002AFF3F /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE3C202FDCF3002AFF3F /* ANYMethodLog.h */,
+				E365FE3E202FDCF3002AFF3F /* ANYMethodLog.m */,
+				E365FE40202FDCF3002AFF3F /* MethodTrace.h */,
+				E365FE42202FDCF3002AFF3F /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		E365FE44202FDCF3002AFF3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE45202FDCF3002AFF3F /* RedEnvelopDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E365FE46202FDCF3002AFF3F /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE47202FDCF3002AFF3F /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		E365FE49202FDCF3002AFF3F /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE4A202FDCF3002AFF3F /* fishhook.c */,
+				E365FE4C202FDCF3002AFF3F /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		E365FE5D202FDD06002AFF3F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E365FE5E202FDD10002AFF3F /* WBBaseViewController.h */,
+				E365FE68202FDD10002AFF3F /* WBBaseViewController.m */,
+				E365FE6D202FDD11002AFF3F /* WBMultiSelectGroupsViewController.h */,
+				E365FE62202FDD10002AFF3F /* WBMultiSelectGroupsViewController.m */,
+				E365FE67202FDD10002AFF3F /* WBReceiveRedEnvelopOperation.h */,
+				E365FE6C202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.m */,
+				E365FE5F202FDD10002AFF3F /* WBRedEnvelopConfig.h */,
+				E365FE63202FDD10002AFF3F /* WBRedEnvelopConfig.m */,
+				E365FE6A202FDD10002AFF3F /* WBRedEnvelopParamQueue.h */,
+				E365FE64202FDD10002AFF3F /* WBRedEnvelopParamQueue.m */,
+				E365FE6B202FDD11002AFF3F /* WBRedEnvelopTaskManager.h */,
+				E365FE6E202FDD11002AFF3F /* WBRedEnvelopTaskManager.m */,
+				E365FE65202FDD10002AFF3F /* WBSettingViewController.h */,
+				E365FE69202FDD10002AFF3F /* WBSettingViewController.m */,
+				E365FE61202FDD10002AFF3F /* WeChatRedEnvelop.h */,
+				E365FE60202FDD10002AFF3F /* WeChatRedEnvelopParam.h */,
+				E365FE66202FDD10002AFF3F /* WeChatRedEnvelopParam.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E365FE2D202FDCF3002AFF3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E365FE3D202FDCF3002AFF3F /* ANYMethodLog.h in Headers */,
+				E365FE41202FDCF3002AFF3F /* MethodTrace.h in Headers */,
+				E365FE72202FDD11002AFF3F /* WeChatRedEnvelop.h in Headers */,
+				E365FE4D202FDCF3002AFF3F /* fishhook.h in Headers */,
+				E365FE7E202FDD11002AFF3F /* WBMultiSelectGroupsViewController.h in Headers */,
+				E365FE70202FDD11002AFF3F /* WBRedEnvelopConfig.h in Headers */,
+				E365FE7B202FDD11002AFF3F /* WBRedEnvelopParamQueue.h in Headers */,
+				E365FE76202FDD11002AFF3F /* WBSettingViewController.h in Headers */,
+				E365FE78202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.h in Headers */,
+				E365FE71202FDD11002AFF3F /* WeChatRedEnvelopParam.h in Headers */,
+				E365FE6F202FDD11002AFF3F /* WBBaseViewController.h in Headers */,
+				E365FE7C202FDD11002AFF3F /* WBRedEnvelopTaskManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E365FE20202FDCF3002AFF3F /* RedEnvelop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E365FE5A202FDCF3002AFF3F /* Build configuration list for PBXNativeTarget "RedEnvelop" */;
+			buildPhases = (
+				E365FE1A202FDCF3002AFF3F /* Sources */,
+				E365FE1B202FDCF3002AFF3F /* Frameworks */,
+				E365FE1C202FDCF3002AFF3F /* ShellScript */,
+				E365FE1D202FDCF3002AFF3F /* Resources */,
+				E365FE1E202FDCF3002AFF3F /* CopyFiles */,
+				E365FE1F202FDCF3002AFF3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E365FE32202FDCF3002AFF3F /* PBXTargetDependency */,
+			);
+			name = RedEnvelop;
+			productName = RedEnvelop;
+			productReference = E365FE21202FDCF3002AFF3F /* RedEnvelop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E365FE2E202FDCF3002AFF3F /* RedEnvelopDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E365FE57202FDCF3002AFF3F /* Build configuration list for PBXNativeTarget "RedEnvelopDylib" */;
+			buildPhases = (
+				E365FE2A202FDCF3002AFF3F /* ShellScript */,
+				E365FE2B202FDCF3002AFF3F /* Sources */,
+				E365FE2C202FDCF3002AFF3F /* Frameworks */,
+				E365FE2D202FDCF3002AFF3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedEnvelopDylib;
+			productName = RedEnvelopDylib;
+			productReference = E365FE2F202FDCF3002AFF3F /* libRedEnvelopDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E365FE16202FDCF3002AFF3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mzj;
+				TargetAttributes = {
+					E365FE20202FDCF3002AFF3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E365FE2E202FDCF3002AFF3F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E365FE19202FDCF3002AFF3F /* Build configuration list for PBXProject "RedEnvelop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E365FE15202FDCF3002AFF3F;
+			productRefGroup = E365FE22202FDCF3002AFF3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E365FE20202FDCF3002AFF3F /* RedEnvelop */,
+				E365FE2E202FDCF3002AFF3F /* RedEnvelopDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E365FE1D202FDCF3002AFF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E365FE28202FDCF3002AFF3F /* put ipa or app here in Resources */,
+				E365FE25202FDCF3002AFF3F /* MethodTraceConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E365FE1C202FDCF3002AFF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		E365FE1F202FDCF3002AFF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		E365FE2A202FDCF3002AFF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E365FE1A202FDCF3002AFF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E365FE2B202FDCF3002AFF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E365FE7F202FDD11002AFF3F /* WBRedEnvelopTaskManager.m in Sources */,
+				E365FE7A202FDD11002AFF3F /* WBSettingViewController.m in Sources */,
+				E365FE48202FDCF3002AFF3F /* AntiAntiDebug.m in Sources */,
+				E365FE73202FDD11002AFF3F /* WBMultiSelectGroupsViewController.m in Sources */,
+				E365FE74202FDD11002AFF3F /* WBRedEnvelopConfig.m in Sources */,
+				E365FE43202FDCF3002AFF3F /* MethodTrace.m in Sources */,
+				E365FE79202FDD11002AFF3F /* WBBaseViewController.m in Sources */,
+				E365FE77202FDD11002AFF3F /* WeChatRedEnvelopParam.m in Sources */,
+				E365FE4B202FDCF3002AFF3F /* fishhook.c in Sources */,
+				E365FE50202FDCF3002AFF3F /* RedEnvelopDylib.mm in Sources */,
+				E365FE75202FDD11002AFF3F /* WBRedEnvelopParamQueue.m in Sources */,
+				E365FE7D202FDD11002AFF3F /* WBReceiveRedEnvelopOperation.m in Sources */,
+				E365FE3F202FDCF3002AFF3F /* ANYMethodLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E365FE32202FDCF3002AFF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E365FE2E202FDCF3002AFF3F /* RedEnvelopDylib */;
+			targetProxy = E365FE31202FDCF3002AFF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E365FE55202FDCF3002AFF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E365FE56202FDCF3002AFF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E365FE58202FDCF3002AFF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V87H9P7AB7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedEnvelopDylib/RedEnvelopDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libRedEnvelopDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"RedEnvelopDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+					"-framework",
+					Cycript,
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		E365FE59202FDCF3002AFF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = V87H9P7AB7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedEnvelopDylib/RedEnvelopDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libRedEnvelopDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"RedEnvelopDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E365FE5B202FDCF3002AFF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V87H9P7AB7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RedEnvelop/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdjz.mzj.RedEnvelop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E365FE5C202FDCF3002AFF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V87H9P7AB7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RedEnvelop/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdjz.mzj.RedEnvelop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E365FE19202FDCF3002AFF3F /* Build configuration list for PBXProject "RedEnvelop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E365FE55202FDCF3002AFF3F /* Debug */,
+				E365FE56202FDCF3002AFF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E365FE57202FDCF3002AFF3F /* Build configuration list for PBXNativeTarget "RedEnvelopDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E365FE58202FDCF3002AFF3F /* Debug */,
+				E365FE59202FDCF3002AFF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E365FE5A202FDCF3002AFF3F /* Build configuration list for PBXNativeTarget "RedEnvelop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E365FE5B202FDCF3002AFF3F /* Debug */,
+				E365FE5C202FDCF3002AFF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E365FE16202FDCF3002AFF3F /* Project object */;
+}
