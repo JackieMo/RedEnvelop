@@ -1,2 +1,2 @@
 # RedEnvelop
-参考buginux的tweak
+参考[buginux](https://github.com/buginux/WeChatRedEnvelop)写的wechat tweak
